@@ -2,13 +2,13 @@
 
 A modern quiz application built with **Python Flask** backend and **React** frontend.
 
-## 🏗️ Architecture
+##  Architecture
 
 - **Backend**: Python Flask API with CORS support
 - **Frontend**: React.js with modern UI/UX
 - **Communication**: RESTful API between frontend and backend
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 quiz-app/
@@ -24,7 +24,7 @@ quiz-app/
 └── README.md             # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -73,25 +73,25 @@ quiz-app/
 
    The frontend will start on `http://localhost:3000`
 
-## 🎯 Features
+##  Features
 
 ### Backend Features
-- ✅ RESTful API endpoints
-- ✅ CORS support for cross-origin requests
-- ✅ Quiz management (list, get, submit)
-- ✅ Score calculation and results
-- ✅ Health check endpoint
-- ✅ Error handling
+-  RESTful API endpoints
+-  CORS support for cross-origin requests
+-  Quiz management (list, get, submit)
+-  Score calculation and results
+-  Health check endpoint
+-  Error handling
 
 ### Frontend Features
-- ✅ Modern, responsive UI design
-- ✅ Interactive quiz interface
-- ✅ Real-time progress tracking
-- ✅ Score display and results
-- ✅ Error handling and loading states
-- ✅ Mobile-friendly design
+-  Modern, responsive UI design
+-  Interactive quiz interface
+-  Real-time progress tracking
+-  Score display and results
+-  Error handling and loading states
+- Mobile-friendly design
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -115,7 +115,7 @@ curl -X POST http://localhost:5000/api/quizzes/1/submit \
   -d '{"answers": {"1": 2, "2": 1, "3": 1}}'
 ```
 
-## 🎨 UI/UX Features
+##  UI/UX Features
 
 - **Modern Design**: Clean, card-based layout with gradients
 - **Responsive**: Works on desktop, tablet, and mobile
@@ -123,7 +123,7 @@ curl -X POST http://localhost:5000/api/quizzes/1/submit \
 - **User-Friendly**: Intuitive navigation and clear feedback
 - **Accessibility**: Proper contrast and keyboard navigation
 
-## 🛠️ Development
+##  Development
 
 ### Backend Development
 
@@ -140,7 +140,7 @@ The React app includes:
 - **Component Structure**: Modular, reusable components
 - **Styling**: Modern CSS with responsive design
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Quizzes
 
@@ -198,7 +198,7 @@ Modify `src/App.css` to customize the appearance:
    - Use nginx, Apache, or any static file server
    - Deploy to platforms like Vercel, Netlify, or AWS S3
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -206,11 +206,11 @@ Modify `src/App.css` to customize the appearance:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🆘 Support
+##  Support
 
 If you encounter any issues:
 
